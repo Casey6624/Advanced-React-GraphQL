@@ -1,9 +1,9 @@
 // Function components don't require import React, NextJS takes care of this
-
-const Home = props => {
+import Items from "../components/items";
+const Home = (props) => {
   return (
     <div>
-      <p>Home</p>
+      <Items />
     </div>
   );
 };

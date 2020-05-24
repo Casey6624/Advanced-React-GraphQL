@@ -1,11 +1,11 @@
 import Link from "next/link";
 import NavStyles from "./styles/NavStyles";
 
-const Nav = props => {
+const Nav = (props) => {
   return (
     <NavStyles>
       <Link>
-        <a href="/index">Home</a>
+        <a href="/index">Shop</a>
       </Link>
       <Link href="/sell">
         <a>Sell</a>
